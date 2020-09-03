@@ -1,23 +1,16 @@
 <template>
-<div>
-    <Topnav />
-    <div class="banner">
-        <h1>小鹿ui</h1>
-        <h2>牛批的UI框架</h2>
-        <p class="actions">
-            <a href>GitHub</a>
-            <a href>开始</a>
-        </p>
-    </div>
+<div class="topnav">
+    <div class="logo">LOGO</div>
+    <ul class="menu">
+        <li>菜单1</li>
+        <li>菜单2</li>
+    </ul>
 </div>
 </template>
 
 <script lang="ts">
-import Topnav from '../components/Topnav.vue'
 export default {
-    components: {
-        Topnav
-    }
+
 }
 </script>
 
