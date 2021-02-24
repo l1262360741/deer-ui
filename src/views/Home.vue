@@ -2,10 +2,10 @@
 <div>
     <Topnav />
     <div class="banner">
-        <h1>小鹿ui</h1>
-        <h2>牛批的UI框架</h2>
+        <h1>Z UI</h1>
+        <h2>UI框架</h2>
         <p class="actions">
-            <a href="https: //github.com">GitHub</a>
+            <a href="https://github.com">GitHub</a>
             <router-link to="/doc">开始</router-link>
         </p>
     </div>
@@ -13,11 +13,14 @@
 </template>
 
 <script lang="ts">
+
 import Topnav from '../components/Topnav.vue'
+
 export default {
     components: {
         Topnav
     }
+    
 }
 </script>
 
