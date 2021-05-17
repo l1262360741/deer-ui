@@ -65,8 +65,13 @@ aside {
   }
 }
 .right_content {
-  margin: 8px;
-  background: grey;
+  // margin: 8px;
+  // background: grey;
   width: 100%;
+  border-radius: 3rem;
+  box-shadow: 0.8rem 0.8rem 1.4rem var(--greyLight-2),
+    -0.2rem -0.2rem 1.8rem var(--white);
+  padding: 4rem;
+  margin: 4rem;
 }
 </style>

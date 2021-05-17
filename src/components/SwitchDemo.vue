@@ -1,13 +1,10 @@
 <template>
-    <div>
-        switch文档
-    </div>
+  <div>
+   switch
+  </div>
 </template>
 <script>
-export default {
-    
-}
+export default {};
 </script>
 <style lang="scss" scope>
-    
 </style>
