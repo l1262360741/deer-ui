@@ -3,19 +3,25 @@
     <Topnav />
     <div class="content">
       <aside v-if="menuVisible">
-        <h2>组件列表</h2>
+        <h2>列表</h2>
         <ol>
           <li>
-            <router-link to="/doc/switch">Switch 组件</router-link>
+            <router-link to="/doc/switch">Switch </router-link>
           </li>
           <li>
-            <router-link to="/doc/button">Button 组件</router-link>
+            <router-link to="/doc/button">Button </router-link>
           </li>
           <li>
-            <router-link to="/doc/dialog">Dialog 组件</router-link>
+            <router-link to="/doc/dialog">Dialog </router-link>
           </li>
           <li>
-            <router-link to="/doc/tabs">Tabs 组件</router-link>
+            <router-link to="/doc/tabs">Tabs</router-link>
+          </li>
+          <li>
+            <router-link to="/doc/clock">clock</router-link>
+          </li>
+          <li>
+            <router-link to="/doc/tabbar">tabbar</router-link>
           </li>
         </ol>
       </aside>

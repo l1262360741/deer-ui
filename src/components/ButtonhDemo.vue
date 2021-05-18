@@ -16,4 +16,7 @@ export default {
 };
 </script>
 <style lang="scss" scope>
+  .btn{
+    margin: 20px 0;
+  }
 </style>
