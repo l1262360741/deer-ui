@@ -8,6 +8,7 @@ import DialogDemo from './components/DialogDemo.vue'
 import DocDemo from './components/DocDemo.vue'
 import Clock from './components/Clock.vue'
 import TabBar from './components/Tabbar.vue'
+import Pokemon from './components/PokemonCard.vue'
 
 
 const history = createWebHashHistory()
@@ -24,6 +25,7 @@ export const router = createRouter({
                 { path: 'dialog', component: DialogDemo },
                 { path: 'clock', component: Clock },
                 { path: 'tabbar', component: TabBar },
+                { path: 'pokemon', component: Pokemon },
             ]
         },
     ],

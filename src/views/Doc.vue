@@ -23,6 +23,9 @@
           <li>
             <router-link to="/doc/tabbar">tabbar</router-link>
           </li>
+          <li>
+            <router-link to="/doc/pokemon">pokemon</router-link>
+          </li>
         </ol>
       </aside>
       <main class="right_content">
